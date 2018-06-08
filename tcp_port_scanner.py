@@ -35,9 +35,6 @@ def scan(port):
     except:
         pass
 
-
-
-
 # The threader thread pulls an worker from the queue and processes it
 def threader():
     while True:
